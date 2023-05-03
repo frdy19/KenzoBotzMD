@@ -11,13 +11,12 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 ------- ${nameown} -------
 
 📮 *Note:*
-• Owner tidak menerima save contact
 • Owner berhak blockir tanpa alasan
 • Berbicaralah yang sopan & tidak spam
 • Owner Hanya merespon yang berkaitan dengan BOT
 • No Telp`
 
-  let teks = 'Pilih dibawah kak ! o(〃＾▽＾〃)o'
+  let teks = '𝑷𝒊𝒍𝒊𝒉 𝑫𝒊𝒔𝒊𝒏𝒊 𝑲𝒂𝒌'
 const sections = [
    {
 	title: `${htjava} SOUND MENU –––––––––·•`,

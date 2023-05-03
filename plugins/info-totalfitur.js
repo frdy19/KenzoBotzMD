@@ -34,7 +34,7 @@ contextInfo: { externalAdReply :{
                         mediaType: 2,
                         description: 'anu',
                         title: bottime,
-                        body: 'Total Cintaku Padamu',          previewType: 0,
+                        body: '𝑳𝒆𝒐𝒏 𝑩𝒐𝒕𝒛 𝑴𝑫',          previewType: 0,
                         thumbnail: fs.readFileSync("./thumbnail.jpg"),
                         sourceUrl: sig
                       }}
