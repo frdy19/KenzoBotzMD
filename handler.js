@@ -733,7 +733,7 @@ export async function handler(chatUpdate) {
                     lelebakar: 0,
                     leleg: 0,
                     level: 0,
-                    limit: 25,
+                    limit: 45,
                     limitjoinfree: 1,
                     lion: 0,
                     lionexp: 0,
@@ -907,13 +907,13 @@ export async function handler(chatUpdate) {
                 if (!('antiToxic' in chat)) 
                     chat.antiToxic = false
                 if (!('anticall' in chat))
-                    chat.anticall = false
+                    chat.anticall = true
                 if (!('welcome' in chat))
                     chat.welcome = true
                 if (!('autoJoin' in chat))
                     chat.autoJoin = false
                 if (!('detect' in chat))
-                    chat.detect = false
+                    chat.detect = true
                 if (!('sWelcome' in chat))
                     chat.sWelcome = ''
                 if (!('sBye' in chat))
@@ -950,9 +950,9 @@ export async function handler(chatUpdate) {
                     virtex: false,
                     autoJoin: false,
 	                antiToxic: false,
-	                anticall: false,
+	                anticall: true,
                     welcome: true,
-                    detect: false,
+                    detect: true,
                     sWelcome: '',
                     sBye: '',
                     sPromote: '',
@@ -1025,7 +1025,7 @@ export async function handler(chatUpdate) {
         if (opts['pconly'] && m.chat.endsWith('g.us'))
             return
         if (opts['gconly'] && !m.chat.endsWith('g.us') && !m.fromMe)
-            return conn.reply(m.chat, 'Bot Sedang Dalam Mode Khusus GGonly\nMasuk Gc Biar Bisa Pake\n[ Link ]\nhttps://chat.whatsapp.com/FR1KfE3OTcQCayiabos8Ff',)
+            return conn.reply(m.chat, 'Bot Sedang Dalam Mode Khusus GGonly\nMasuk Gc Biar Bisa Pake\n[ Link ]\nhttps://chat.whatsapp.com/FQH6CI63LJCBTySzClHrrg',)
         if (opts['swonly'] && m.chat !== 'status@broadcast')
             return
         if (typeof m.text !== 'string')

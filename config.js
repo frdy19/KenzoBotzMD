@@ -51,30 +51,31 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 /*============== SOCIAL ==============*/
 
 // kalo ga punya ketik "-" atau biarin aja biar ada creditsnya :v
-global.sig = 'https://instagram.com/l4c1f2r' //Link Instagrammu
-global.sgh = 'https://github.com/Lucife-Putra' //Link Githubmu
-global.sgc = 'https://chat.whatsapp.com/FR1KfE3OTcQCayiabos8Ff'
+global.sig = '-' //Link Instagrammu
+global.sgh = 'https://github.com/frdy19' //Link Githubmu
+global.sgc = 'https://chat.whatsapp.com/FQH6CI63LJCBTySzClHrrg'
 global.sdc = '-' //Isi Pake Link Discordmu Kalo Gada Biarin aja
-global.syt = 'https://youtube.com/@Putra_Modz_'
+global.syt = '-'
 global.snh = 'https://nhentai.net/g/HaramTod🗿' //Hmmm, Ini boleh kalian isi terserah :v
 
 /*============== PAYMENT ==============*/
-global.pdana = '083863727401' //Nomor Danamu
-global.ppulsa = '083863728401' //Nomor SimCard Yang Kamu Pake
+//global.pdana = '083863727401' //Nomor Danamu
+global.pgopay = '082350496532'
+global.ppulsa = '082350496532' //Nomor SimCard Yang Kamu Pake
 global.psaweria = '-' //Link Saweriamu Kalo Nggada Ketik - aja
 
 /*============== NOMOR ==============*/
-global.nomorbot = '6283863727376' //Nomor Bot
-global.nomorown = '6283863727401' //Nomor Owner
-global.namebot = 'ᚯӃᶱᶮᶽᶲメ฿Ø₮™' //Nama Bot
-global.nameown = '༄ᶜputra☆࿐' // Nama Owner
-global.wame = 'https://api.whatsapp.com/send?phone=+6283863727401'
-global.tautanwa = 'https://api.whatsapp.com/send?phone=+6283863727401' //kalau bisa link wa bisnis kalian
+global.nomorbot = '62823504965320' //Nomor Bot
+global.nomorown = '62823504965328' //Nomor Owner
+global.namebot = '𝗟𝗲𝗼𝗻𝗕𝗢𝗧-𝗠𝗗' //Nama Bot
+global.nameown = '𝙵𝚎𝚛𝚍𝚢 𝙵𝚒𝚛𝚖𝚊𝚗𝚜𝚢𝚊𝚑' // Nama Owner
+global.wame = 'https://api.whatsapp.com/send?phone=+62823504965328'
+global.tautanwa = 'https://api.whatsapp.com/send?phone=+62823504965328' //kalau bisa link wa bisnis kalian
 
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6283863727401', '❦ ༄ᶜᴋputra☆࿐ 🎐', true] //Ganti jd nomormu sama Namamu
+  ['62823504965328', '𝙵𝚎𝚛𝚍𝚢 𝙵𝚒𝚛𝚖𝚊𝚗𝚜𝚢𝚊𝚑', true] //Ganti jd nomormu sama Namamu
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -141,21 +142,21 @@ global.APIKeys = { // APIKey Here
 // Kata APIKEY itu isi dengan apikey lu sendiri, dengan beli ke website itu
 
 /*============== WATERMARK ==============*/
-global.wm = '                「 ᚯӃᶱᶮᶽᶲメ汉  」' //Main Watermark
-global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘ᚯӃᶱᶮᶽᶲメ฿Ø₮™˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
-global.wm3 = '⫹⫺ ᚯӃᶱᶮᶽᶲメ฿Ø₮™'
-global.namedoc = 'ᚯӃᶱᶮᶽᶲメ' //Main Name Menu Document
+global.wm = '                「 𝗟𝗲𝗼𝗻𝗕𝗼𝘁 」' //Main Watermark
+global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘ʟᴇᴏɴ ʙᴏᴛᴢ ᴍᴅ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
+global.wm3 = '⫹⫺ 𝕷𝖊𝖔𝖓 𝖇𝖔𝖙 𝖒𝖉'
+global.namedoc = '𝑳𝒆𝒐𝒏𝑴𝒅' //Main Name Menu Document
 global.botdate = `⫹⫺ Day's: ${week} ${date}`
 global.bottime = `ᴛɪᴍᴇ: ${wktuwib}`
-global.titlebot = '🎋 ┊ ᚯӃᶱᶮᶽᶲ ʙᴏᴛ ᴡʜᴀᴛsᴀᴘᴘ'
+global.titlebot = '🎋 ┊ ʟᴇᴏɴ ʙᴏᴛ ᴡʜᴀᴛsᴀᴘᴘ'
 global.author = global.wm
 global.emojis = pickRandom(["👑", "🎗", "️🗿", "🕹", "️💡", "🪄", "🎈", "🎊", "🔖", "📍", "❤", "‍🔥", "💤", "💭", "🕚", "💬", "🚩", "🎐", "🍃", "🌿", "🥀", "✨", "⚡", "☂️"])
 
 
 /*============== LOGO ==============*/
-global.thumb = 'https://telegra.ph/file/9d413f9598257e85d908e.jpg' //Main Thumbnail
-global.thumb2 = 'https://telegra.ph/file/18e367c67e13908302689.jpg'
-global.thumbbc = 'https://telegra.ph/file/05f874dc87f7e27fa8127.jpg' //For broadcast
+global.thumb = 'https://telegra.ph/file/b5f1e4f979efab95f666e.jpg' //Main Thumbnail
+global.thumb2 = 'https://telegra.ph/file/b5f1e4f979efab95f666e.jpg'
+global.thumbbc = 'https://telegra.ph/file/b5f1e4f979efab95f666e.jpg' //For broadcast
 global.giflogo = Anime()
 global.thumblvlup = 'https://telegra.ph/file/a3e66e0fa840b08236c75.jpg'
 global.flaaa2 = flaaa2Anu()
@@ -451,9 +452,9 @@ global.hsquere = ['⛶','❏','⫹⫺']
 
 /*============== STICKER WM ==============*/
 global.stickpack = '.'
-global.stickauth = `☂︎\nK\nE\nN\nZ\nO\n-\nB\nO\nT\n✦\n\n⫹⫺ Whatsapp BOT\nwa.me/${global.nomorbot}`
+global.stickauth = `☂︎\nL\nE\nO\nN\n-\nB\nO\nT\n✦\n\n⫹⫺ Whatsapp BOT\nwa.me/${global.nomorbot}`
 global.packname = 'Sticker Request By '
-global.packname2 = 'ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᚯӃᶱᶮᶽᶲ ʙᴏᴛᴢ'
+global.packname2 = 'ᴄʀᴇᴀᴛᴇᴅ ʙʏ ʟᴇᴏɴ ʙᴏᴛᴢ'
 
 global.multiplier = 38 // The higher, The harder levelup
 
